@@ -11,5 +11,5 @@ while True:
         print('Chyslo dolzhno byt bolshe')
         
     else:
-        print('Vy ugadali')
+        print('Vy ugadali!!!!')
         break
