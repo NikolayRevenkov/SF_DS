@@ -20,7 +20,7 @@ def score_game(random_predict) -> int:
     for number in random_array:
         count_ls.append(random_predict(number))
     score=int(np.mean(count_ls))
-    print(f'Vash algoritm ygad chislo v srednem za: {score} popytok')
+    print(f'Vash algoritm ygad chislo v srednem za: {score} popytok!!')
     return(score)
 if __name__ == '__main__':
     score_game(random_predict)
